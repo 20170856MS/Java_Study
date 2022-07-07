@@ -29,5 +29,6 @@ public class Control2_ex2 {
 		
 	
 		System.out.println(alpabet);
+		System.out.println("Home Edition");
 	}
 }
