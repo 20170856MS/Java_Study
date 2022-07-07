@@ -26,8 +26,23 @@ public class Control2_ex2 {
 			lock = lock -26 + number;
 			alpabet = (char)lock;
 		}
-		
 	
+		/* 소문자가 범위를 벗어났을 때
+		 * int result = ch + num;
+		 * if(result > 'z'){
+		 * 		result = result - 'z'-1;
+		 * 		result = 'a' + result;
+		 * }
+		 * 대문자가 범위를 벗어났을 떄
+		 * 
+		 * int result = ch + num;
+		 * if result > 'Z' && result < 'a'){
+		 * 		result = result - 'Z'-1;
+		 * 		result 'A' + result;
+		 * }
+		 * ch = (char)result;
+		 * */
+		
 		System.out.println(alpabet);
 		System.out.println("Home Edition");
 	}
