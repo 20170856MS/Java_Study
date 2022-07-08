@@ -18,11 +18,11 @@ public class Loop4_ex1 {
 			for(int j=0;j<60;j++) {
 				System.out.println(i+"분"+j+"초");
 				if (min==i && sec==j) {
-					ring = !ring;
+					ring = !ring; //i=60;
 					break;
 				}
 			}
-			if (min==i && ring==true) {
+			if (min==i && ring==true) { //if(ring == true)
 				break;
 			}
 			
