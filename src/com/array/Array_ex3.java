@@ -25,13 +25,19 @@ public class Array_ex3 {
 			int [] engs = null;
 			int [] maths = null;
 			int [] totals = null;
-			int [] avgs = null;
+			double [] avgs = null;
 			
 			
 			if(menu ==1) {
 				System.out.println("학생 수를 입력하세요.");
 				student = sc.nextInt();
-				
+				names = new String [student];
+				nums = new int[names.length];
+				kors = new int[names.length];
+				engs = new int[names.length];
+				maths = new int[names.length];
+				totals = new int[names.length];
+				avgs = new double[names.length];
 				
 				for(int i=0; i< student; i++) {
 					System.out.println("학생의 이름을 입력하세요.");
